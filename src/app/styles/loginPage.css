@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body{
+  background-image: none;
+  background-color: #02041b;
+}
+.header {
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Gabriola';
+    font-weight: 500;
+    word-spacing: 5px;
+    position:absolute;
+    top: 130px;
+    left: 450px;
+}
+.label {
+    text-align: center;
+}
+.inputBox {
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 15px;
+    color: black;
+    
+    
+}
+.inputBox:hover {
+    border: 2px solid #02fefe;
+    border-radius: 5px;
+}
+.form {
+    position: absolute;
+    top: 260px;
+    left: 540px;
+}
+input:focus {
+    outline: none;
+}
+.mailBox {
+    width: 88%;
+    margin-left: 16px;
+}
+.lPassword {
+    position: relative;
+    left: -30px;
+    top: 10px;
+}
+.passBox {
+    position: relative;
+    top: -20px;
+    left: 35px;
+}
+.sub-btn {
+    background-color: #02fefe;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 130px;
+    left: 680px;
+}
+.sub-btn:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;    
+}
+.login-txt {
+    font-family: 'Gabriola';
+    font-size: 1.3rem;
+    position: relative;
+    top: 200px;
+    left: 400px;
+}
